@@ -1,0 +1,113 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    font-size: 14.8px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 2px solid silver;
+    border-radius: 0 0 25px 25px;
+    background: #262626;
+    color:aliceblue;
+    line-height: 50px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0;
+    background-color:#332f2c;
+    color:aliceblue;
+}
+
+.list{
+    width: 300px;
+    font-size: 13.8px;
+    border-radius: 0.5cm;
+
+}
+
+.list:hover {
+    background-color:#262626;
+    color:aliceblue;
+    transform: scale(1.01);
+    opacity: 0.99;
+    cursor: pointer;
+
+}
+
+#image {
+    width: 300px;
+    height: 250px;
+    border: solid 3px silver;
+    border-radius: 0.5cm;
+}
+
+#image:hover {
+    opacity: 0.7;
+}
+
+.main {
+    float:right;
+    margin-top: 35px;
+    margin-right: 100px;
+}
+.date {
+    width: 300px;
+    border-radius: 0.5cm;
+}
+
+.date:hover {
+    background-color:#262626;
+    color:aliceblue;
+    transform: scale(1.01);
+    opacity: 0.99;
+    cursor: pointer;
+
+}
+
+#myButton {
+    width: 120px;
+    border-radius: 0.5cm;
+}
+
+#myButton:hover {
+    background-color:#262626;
+    color:aliceblue;
+    transform: scale(1.01);
+    opacity: 0.99;
+    cursor: pointer;
+}
+
+.info {
+    float:left;
+    margin-left: 40px;
+    width: 500px;
+    font-size: 9.8px;
+}
+
+.crypto {
+
+    margin-bottom: 20px;
+    background-color: #3e8fa0;
+    border: solid silver 1.5px;
+    padding: 10px;
+    border-radius: 0.3cm;
+}
+
+.crypto:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.95;
+}
+
+#link {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#price {
+    color: aliceblue;
+}
